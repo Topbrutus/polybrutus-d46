@@ -1,0 +1,5 @@
+# SHA-256 of three published Zenodo artifacts, DOI 10.5281/zenodo.24416489
+# Frozen source ZIP contains original scientific tag; PDF and cert are embedded in it
+59779a2bd99b75cb6fb3edcb059819ed12a1fb10402c30079402e464d5ffbf18  POLYBRUTUS_D46_SOURCE_v0.1.0_GITHUB_TAG.zip
+a9da728fa75d2ec2e453d94e311372d5183f02301347fafd8099b195f5a78226  publication/POLYBRUTUS_46D_NOTE.pdf
+4b5a26d2df42443eef2fe2e2015dd3042fa31051edb7e283ca9cd25eeaa3899d  results/certificate_d46.json

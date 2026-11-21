@@ -1,0 +1,102 @@
+{
+  "ai_assistance": "OpenAI ChatGPT (Astra) materially assisted exact verifiers, mathematics, manuscript, bibliography and controlled publication; AI not an author",
+  "files": {
+    "POLYBRUTUS_46D_NOTE.pdf": {
+      "md5": "969fec2493b428a6e6d624ac81e80f7c",
+      "sha256": "a9da728fa75d2ec2e453d94e311372d5183f02301347fafd8099b195f5a78226",
+      "size": 79938
+    },
+    "POLYBRUTUS_D46_SOURCE_v0.1.0_GITHUB_TAG.zip": {
+      "md5": "9a9d66df80cfd082ac9be41cf331131a",
+      "sha256": "59779a2bd99b75cb6fb3edcb059819ed12a1fb10402c30079402e464d5ffbf18",
+      "size": 2363484
+    },
+    "certificate_d46.json": {
+      "md5": "1107931e233cfc64fb6078c402c70b6f",
+      "sha256": "4b5a26d2df42443eef2fe2e2015dd3042fa31051edb7e283ca9cd25eeaa3899d",
+      "size": 97206
+    }
+  },
+  "github": {
+    "frozen_scientific_tag": "v0.1.0",
+    "main_pre_tag_ci": "https://github.com/Topbrutus/polybrutus-d46/actions/runs/44894529717",
+    "repository": "https://github.com/Topbrutus/polybrutus-d46",
+    "scientific_source_commit": "2181c7a3b744c784d377c8910c91d08985b84b65",
+    "scientific_tag_ci": "https://github.com/Topbrutus/polybrutus-d46/actions/runs/44894679526"
+  },
+  "limitations": "One chosen synthetic exact Euclidean metric and one separately stipulated ideal graph; no claimed physical dimensions, observed frequencies, novel universal theorem, particles or independent human peer review",
+  "mathematics": {
+    "affine_rank": 46,
+    "centered_gram_rank": 46,
+    "conserved_parent_pairs": 1225,
+    "histogram_k_4d2": {
+      "10": 10,
+      "12": 6,
+      "13": 2,
+      "16": 2,
+      "4": 6,
+      "7": 2,
+      "8": 1244,
+      "9": 3
+    },
+    "new_pairs": 50,
+    "pairs": 1275,
+    "selected_ideal_graph_eigenvalue_25_multiplicity": 4,
+    "selected_ideal_graph_eigenvalue_51_over_2_multiplicity": 40,
+    "sum_squared_distances_R1": "10247/4",
+    "vertices": 51
+  },
+  "memoria": {
+    "checkpoint": "memoria/checkpoints/POLYBRUTUS_D46_PUBLICATION_2026-11-21.md",
+    "metadata_qa": "memoria/protocols/POLYBRUTUS_ZENODO_METADATA_QA_GATE.md",
+    "registry": "memoria/projects/POLYBRUTUS_X72_PUBLICATIONS_INDEX.md",
+    "repository": "Topbrutus/topbrutus_one"
+  },
+  "parent": {
+    "archive_bytes": 2256549,
+    "archive_entries": 30,
+    "archive_path": "prior/d45/frozen_scientific_tag_v0.1.0.zip",
+    "archive_sha256": "63a3a5a372f53419b0d93ce1343704ab08ccc0598a6ecf11cd63282681905f42",
+    "certificate_sha256": "b37d3d92e16a4c4f3741cbcfe1889ba19d949ce860fec0210036aeaf4e4b2160",
+    "doi": "10.5281/zenodo.24416007",
+    "full_original_scientific_lineage_embedded": true,
+    "repository": "Topbrutus/polybrutus-d45",
+    "scientific_source_commit": "c743aa3e29a16ef9868375077ef31a222fd45c46",
+    "tag": "v0.1.0"
+  },
+  "publication_date": "2026-11-21",
+  "schema": "POLYBRUTUS-D46-RELEASE-MANIFEST-v1",
+  "scientific_author": "Gabriel St-Pierre, independent researcher",
+  "status": "DONE",
+  "version": "0.1.0",
+  "zenodo": {
+    "doi": "10.5281/zenodo.24416489",
+    "keywords": [
+      "Polybrutus",
+      "affine Euclidean dimension forty-six",
+      "exact labelled squared-distance metric",
+      "centered Gram rank",
+      "orthogonal conservative completion",
+      "weighted graph Laplacian",
+      "fortyfold ideal eigenvalue",
+      "independent rational verification",
+      "mathematical preprint"
+    ],
+    "public_files": "3/3 names/sizes/MD5 checked against originals",
+    "public_url": "https://zenodo.org/records/24416489",
+    "qa_status": "ALL_FIELDS_PUBLIC_VERIFIED",
+    "record_id": 24416489,
+    "references": [
+      "St-Pierre, Gabriel (2026). Polybrutus 45D: Exact 50-Point Euclidean Metric and Thirty-Ninefold Ideal Graph Mode. Zenodo. DOI: 10.5281/zenodo.24416007. https://doi.org/10.5281/zenodo.24416007",
+      "St-Pierre, Gabriel (2026). Polybrutus 7D: An Exact Twelve-Point Orthogonal Completion, the 12-35-37 Identity, and an Oscillator Model. Zenodo. DOI: 10.5281/zenodo.24407952. https://doi.org/10.5281/zenodo.24407952"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24416007",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      }
+    ]
+  }
+}

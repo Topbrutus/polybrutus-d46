@@ -10,3 +10,5 @@ date-released: 2026-11-21
 license: MIT
 repository-code: https://github.com/Topbrutus/polybrutus-d46
 abstract: "Exact 51-point norm-one labelled Euclidean metric conserving all 1225 predecessor pairs, minimum affine rank 46 and separately stipulated ideal graph eigenspaces."
+doi: 10.5281/zenodo.24416489
+url: https://doi.org/10.5281/zenodo.24416489

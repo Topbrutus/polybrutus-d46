@@ -24,6 +24,18 @@ The independent programs output the same deterministic SHA-256 for `results/cert
 
 Source parent **[Polybrutus D45 v0.1.0](https://github.com/Topbrutus/polybrutus-d45/tree/v0.1.0)**, scientific commit `c743aa3e29a16ef9868375077ef31a222fd45c46`, [DOI 10.5281/zenodo.24416007](https://doi.org/10.5281/zenodo.24416007). Original tag's complete scientific source including all earlier ancestors is tracked in `prior/d45/frozen_scientific_tag_v0.1.0.zip`, **2,256,549 bytes**, **30 entries**, CRC PASS, SHA-256 `63a3a5a372f53419b0d93ce1343704ab08ccc0598a6ecf11cd63282681905f42`. Original D45 certificate extracted byte-identically to `prior/d45/results/certificate_d45.json`, SHA-256 `b37d3d92e16a4c4f3741cbcfe1889ba19d949ce860fec0210036aeaf4e4b2160`. Both checkers authenticate the complete ZIP and parent cert.
 
+## Official publication DOI and publicly verified scientific references
+
+- **Official DOI:** [10.5281/zenodo.24416489](https://doi.org/10.5281/zenodo.24416489).
+- **Public Zenodo record:** https://zenodo.org/records/24416489; all three file names, byte sizes and MD5 verified against original files.
+- **Frozen scientific tag:** [v0.1.0](https://github.com/Topbrutus/polybrutus-d46/tree/v0.1.0), commit `2181c7a3b744c784d377c8910c91d08985b84b65`.
+- **Tag CI:** https://github.com/Topbrutus/polybrutus-d46/actions/runs/44894679526 — `success`.
+- **Zenodo keywords:** current `forty-six` affine rank, `fortyfold` stipulated ideal graph multiplicity; copied 31D keywords absent.
+- **Structured Zenodo relation:** `isDerivedFrom` -> direct scientific D45 DOI [10.5281/zenodo.24416007](https://doi.org/10.5281/zenodo.24416007).
+- **Separate Zenodo `references` field:** two publicly verified bibliographic citations, D45 direct predecessor and [Polybrutus 7D](https://doi.org/10.5281/zenodo.24407952) historical reference.
+- **Durable Memoria checkpoint:** https://github.com/Topbrutus/topbrutus_one/blob/main/memoria/checkpoints/POLYBRUTUS_D46_PUBLICATION_2026-11-21.md .
+- **Central publications registry:** https://github.com/Topbrutus/topbrutus_one/blob/main/memoria/projects/POLYBRUTUS_X72_PUBLICATIONS_INDEX.md .
+
 ## Manuscript, citation and Zenodo metadata safeguards
 
 - [Specification](SPECIFICATION_D46.md), [constructive proof](PREUVE_D46.md), [provenance](PROVENANCE.md), [ancestry integrity](prior/d45/ARCHIVE_PROVENANCE.md).
