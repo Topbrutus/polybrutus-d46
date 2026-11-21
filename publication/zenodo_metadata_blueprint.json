@@ -1,0 +1,37 @@
+{
+  "schema": "POLYBRUTUS-D46-ZENODO-METADATA-QA-v1",
+  "provenance": "Exact D46 certificate and verified public Zenodo records 24416007 (scientific parent) and 24407952 (historical context)",
+  "scientific_dimension": 46,
+  "norm_one_vertices": 51,
+  "exact_labelled_squared_pairs": 1275,
+  "model_eigenvalue_51_over_2_multiplicity": 40,
+  "scientific_parent_doi": "10.5281/zenodo.24416007",
+  "historical_7d_doi": "10.5281/zenodo.24407952",
+  "title": "Polybrutus 46D: Exact 51-Point Euclidean Metric and Fortyfold Ideal Graph Mode",
+  "keywords": [
+    "Polybrutus",
+    "affine Euclidean dimension forty-six",
+    "exact labelled squared-distance metric",
+    "centered Gram rank",
+    "orthogonal conservative completion",
+    "weighted graph Laplacian",
+    "fortyfold ideal eigenvalue",
+    "independent rational verification",
+    "mathematical preprint"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24416007",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    }
+  ],
+  "references": [
+    "St-Pierre, Gabriel (2026). Polybrutus 45D: Exact 50-Point Euclidean Metric and Thirty-Ninefold Ideal Graph Mode. Zenodo. DOI: 10.5281/zenodo.24416007. https://doi.org/10.5281/zenodo.24416007",
+    "St-Pierre, Gabriel (2026). Polybrutus 7D: An Exact Twelve-Point Orthogonal Completion, the 12-35-37 Identity, and an Oscillator Model. Zenodo. DOI: 10.5281/zenodo.24407952. https://doi.org/10.5281/zenodo.24407952"
+  ],
+  "ai_assistance_disclosure": "OpenAI ChatGPT (Astra) materially assisted exact rational verifiers, manuscript, metadata and controlled publication; AI is not a scientific author.",
+  "scientific_limit": "One synthetic exact Euclidean metric and one separately selected ideal weighted graph; not observed physical dimensions, frequencies, particles, novel theorem or independent peer review.",
+  "reference_verification": "Public Zenodo API records 24416007 and 24407952, title, DOI, creator St-Pierre, Gabriel, readback on 2026-11-21"
+}
