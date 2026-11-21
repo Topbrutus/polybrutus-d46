@@ -1,0 +1,30 @@
+name: Verify Polybrutus D46 exact science and Zenodo references
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+jobs:
+  exact-d46:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact arithmetic
+        run: python -m pip install sympy==1.14.0
+      - name: Verify exact 1275 distances and ideal graph
+        run: python src/verify_d46.py
+      - name: Independent Fraction-based Euclidean verification
+        run: python tests/independent_d46.py
+      - name: Confirm deterministic exact certificate bytes
+        run: git diff --exit-code -- results/certificate_d46.json
+      - name: Authenticate complete immutable scientific D45 tag and certificate
+        run: |
+          python -c "from pathlib import Path;from zipfile import ZipFile;import hashlib;p=Path('prior/d45/frozen_scientific_tag_v0.1.0.zip');c=Path('prior/d45/results/certificate_d45.json').read_bytes();assert hashlib.sha256(p.read_bytes()).hexdigest()=='63a3a5a372f53419b0d93ce1343704ab08ccc0598a6ecf11cd63282681905f42';assert hashlib.sha256(c).hexdigest()=='b37d3d92e16a4c4f3741cbcfe1889ba19d949ce860fec0210036aeaf4e4b2160';z=ZipFile(p);assert len(z.namelist())==30 and z.testzip() is None and z.read('results/certificate_d45.json')==c"
+      - name: Guard dimension keywords, structured DOI and separate textual references
+        run: |
+          python -c "import json;from pathlib import Path;c=json.loads(Path('results/certificate_d46.json').read_text());m=json.loads(Path('publication/zenodo_metadata_blueprint.json').read_text());assert c['dimension']==m['scientific_dimension']==46 and c['vertices']==m['norm_one_vertices']==51 and c['pairs']==m['exact_labelled_squared_pairs']==1275;assert c['eigenvalue_51_over_2_multiplicity']==m['model_eigenvalue_51_over_2_multiplicity']==40;assert c['parent_doi']==m['scientific_parent_doi']=='10.5281/zenodo.24416007';assert m['related_identifiers']==[{'identifier':'10.5281/zenodo.24416007','relation':'isDerivedFrom','resource_type':'publication-preprint','scheme':'doi'}];assert 'affine Euclidean dimension forty-six' in m['keywords'] and 'fortyfold ideal eigenvalue' in m['keywords'];assert not any(x in str(m['keywords']) for x in ('thirty-one','twenty-fivefold','thirty-ninefold','forty-five'));assert len(m['references'])==2 and '10.5281/zenodo.24416007' in m['references'][0] and '10.5281/zenodo.24407952' in m['references'][1];assert all(x in Path('publication/POLYBRUTUS_46D_NOTE.md').read_text() for x in ('## References','10.5281/zenodo.24416007','10.5281/zenodo.24407952'));print('D46_ZENODO_METADATA_REFERENCES_CI_PASS')"
