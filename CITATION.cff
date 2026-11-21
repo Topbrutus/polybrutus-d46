@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the scientific source and manuscript using its official Zenodo DOI."
+title: "Polybrutus 46D: Exact 51-Point Euclidean Metric and Fortyfold Ideal Graph Mode"
+type: software
+authors:
+  - family-names: St-Pierre
+    given-names: Gabriel
+version: "0.1.0"
+date-released: 2026-11-21
+license: MIT
+repository-code: https://github.com/Topbrutus/polybrutus-d46
+abstract: "Exact 51-point norm-one labelled Euclidean metric conserving all 1225 predecessor pairs, minimum affine rank 46 and separately stipulated ideal graph eigenspaces."
